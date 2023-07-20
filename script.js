@@ -483,14 +483,13 @@ var utils = (() => {
       var { className, infoLevel } = options;
   
       var technical = `
-        In this demo,
+        This Project uses,
         <a href='https://en.wikipedia.org/wiki/Backtracking'>
           backtracking algorithm
-        </a> is used for <em>making</em>
-        the sudoku project.`;
+        </a> for solving the sudoku board`;
   
       var description = `
-        Difficulty and solvability is
+        The Difficulty and solvability of the board is
         totally random as I randomly left a certain number of hints
         from a full-filled board.
       `;
@@ -530,7 +529,7 @@ var utils = (() => {
             </span>
   
             <span class='show-on-lg'>
-              Sudoku Puzzle Project
+              Sudoku Solver
             </span>
   
           </h1>
